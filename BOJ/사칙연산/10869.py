@@ -1,0 +1,5 @@
+inputList = list(map(int, input().split()))
+print((inputList[0]+inputList[1])%inputList[2])
+print(((inputList[0]%inputList[2])+(inputList[1]%inputList[2]))%inputList[2])
+print((inputList[0]*inputList[1])%inputList[2])
+print(((inputList[0]%inputList[2])*(inputList[1]%inputList[2]))%inputList[2])
